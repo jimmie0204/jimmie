@@ -10,7 +10,7 @@ import com.jimmie.vote.util.ExcelUtil;
 
 
 @RestController  
-public class AccountController {  
+public class UserController {  
     
     @RequestMapping("/getAll")  
     public List<String> getAll() {  
