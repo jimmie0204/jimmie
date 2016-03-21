@@ -16,7 +16,6 @@ public class Application {
     		System.out.println("======"+args[i]);
     	}
     	System.out.println("==========小李子==================");
-    	ExcelUtil.getList();
         SpringApplication.run(Application.class);  
     }  
 }
