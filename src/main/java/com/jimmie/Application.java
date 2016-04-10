@@ -16,6 +16,8 @@ public class Application {
     		System.out.println("======"+args[i]);
     	}
     	System.out.println("==========小李子==================");
+		System.out.println(System.getProperty("person"));
+		System.out.println(System.getProperty("prize"));
         SpringApplication.run(Application.class);  
     }  
 }
